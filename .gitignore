@@ -1,0 +1,100 @@
+# Node modules directory
+node_modules/
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+client/node_modules/
+client/bower_components/
+client/build/
+
+# Build directories
+dist/
+build/
+.babel_cache/
+
+# Coverage directories
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.swn
+*.bak
+*.backup
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# IDE files
+.idea/
+.vscode/
+*.code-workspace
+
+# MacOS files
+.DS_Store
+
+# Miscellaneous
+*.log
+*.gz
+*.tgz
+*.zip
+*.tar
+*.jar
+*.war
+*.exe
+*.dll
+*.class
+
+# Binary files
+*.o
+*.out
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.so
+*.dylib
+*.bin
+*.lock
+
+# API keys and configuration files
+config.js
+credentials.json
+
+# Generated code
+*.map
+
+# Ignoring local overrides
+*.override.json
+
+# Lint and coverage reports
+.eslintcache
+.nyc_output/
+
+# Ignore sensitive or personal files
+secrets.json
